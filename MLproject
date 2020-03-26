@@ -1,0 +1,10 @@
+name: tutorial
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      a: {type: int, default: 5}
+      b: {type: int, default: 6}
+    command: "python example.py {a} {b}"
