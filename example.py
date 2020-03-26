@@ -3,7 +3,7 @@ import mlflow
 import os
 import mlflow.sklearn
 
-if __name__='__main__':
+if __name__=='__main__':
 	a=int(sys.argv[1])
 	b=int(sys.argv[2])
 	mlflow.log_param("val1",a)
